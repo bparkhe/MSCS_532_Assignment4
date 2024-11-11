@@ -39,21 +39,21 @@ The script measures the execution time for each algorithm on arrays of varying s
    ```sh
    python sorting_comparison.py
 ## Expected Output
-```sh
-Testing with array size: 1000
-Heap Sort Time: 0.0053 seconds
-Quick Sort Time: 0.0037 seconds
-Merge Sort Time: 0.0042 seconds
-
-Testing with array size: 5000
-Heap Sort Time: 0.0254 seconds
-Quick Sort Time: 0.0201 seconds
-Merge Sort Time: 0.0228 seconds
-
-Testing with array size: 10000
-Heap Sort Time: 0.0556 seconds
-Quick Sort Time: 0.0459 seconds
-Merge Sort Time: 0.0498 seconds
+   ```sh
+   Testing with array size: 1000
+   Heap Sort Time: 0.0053 seconds
+   Quick Sort Time: 0.0037 seconds
+   Merge Sort Time: 0.0042 seconds
+   
+   Testing with array size: 5000
+   Heap Sort Time: 0.0254 seconds
+   Quick Sort Time: 0.0201 seconds
+   Merge Sort Time: 0.0228 seconds
+   
+   Testing with array size: 10000
+   Heap Sort Time: 0.0556 seconds
+   Quick Sort Time: 0.0459 seconds
+   Merge Sort Time: 0.0498 seconds
 
 
 # Priority Queue for Task Scheduling
