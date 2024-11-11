@@ -54,4 +54,48 @@ Testing with array size: 10000
 Heap Sort Time: 0.0556 seconds
 Quick Sort Time: 0.0459 seconds
 Merge Sort Time: 0.0498 seconds
-  
+
+
+# Priority Queue for Task Scheduling
+
+This repository contains an implementation of a Priority Queue using a binary heap to manage and schedule tasks efficiently. The implementation supports both max-heap and min-heap configurations, allowing for either highest-priority-first or lowest-priority-first scheduling. The project includes a `Task` class to represent individual tasks, with attributes such as task ID, priority, arrival time, and deadline.
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Class and Method Descriptions](#class-and-method-descriptions)
+- [Example](#example)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+
+This implementation provides an efficient way to manage and retrieve tasks based on priority, using a binary heap data structure. The binary heap allows efficient insertion, extraction, and priority modification operations, making it ideal for task scheduling applications.
+
+## Features
+
+- Efficient insertion and extraction of tasks based on priority.
+- Supports both max-heap (highest-priority-first) and min-heap (lowest-priority-first) configurations.
+- Provides functionality to adjust the priority of tasks and maintain the heap property.
+- Simple and efficient checks for heap status (e.g., empty or not).
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x
+
+### Running the script
+
+Run the script in a terminal or Python environment:
+
+```bash
+   python priority_queue_implementation.py
+## Expected Output
+```bash
+Extracted task: Task(id=2, priority=20, arrival=09:30, deadline=13:00)
+Is the queue empty? False
+Heap: [Task(id=3, priority=25, arrival=10:00, deadline=11:30), Task(id=1, priority=10, arrival=09:00, deadline=12:00)]
+
