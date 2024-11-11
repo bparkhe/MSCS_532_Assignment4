@@ -39,22 +39,21 @@ The script measures the execution time for each algorithm on arrays of varying s
    ```sh
    python sorting_comparison.py
 ## Expected Output
-   ```sh
-   Testing with array size: 1000
-   Heap Sort Time: 0.0053 seconds
-   Quick Sort Time: 0.0037 seconds
-   Merge Sort Time: 0.0042 seconds
-   
-   Testing with array size: 5000
-   Heap Sort Time: 0.0254 seconds
-   Quick Sort Time: 0.0201 seconds
-   Merge Sort Time: 0.0228 seconds
-   
-   Testing with array size: 10000
-   Heap Sort Time: 0.0556 seconds
-   Quick Sort Time: 0.0459 seconds
-   Merge Sort Time: 0.0498 seconds
-
+      ```sh
+      Testing with array size: 1000
+      Heap Sort Time: 0.0053 seconds
+      Quick Sort Time: 0.0037 seconds
+      Merge Sort Time: 0.0042 seconds
+      
+      Testing with array size: 5000
+      Heap Sort Time: 0.0254 seconds
+      Quick Sort Time: 0.0201 seconds
+      Merge Sort Time: 0.0228 seconds
+      
+      Testing with array size: 10000
+      Heap Sort Time: 0.0556 seconds
+      Quick Sort Time: 0.0459 seconds
+      Merge Sort Time: 0.0498 seconds
 
 # Priority Queue for Task Scheduling
 
@@ -91,11 +90,11 @@ This implementation provides an efficient way to manage and retrieve tasks based
 
 Run the script in a terminal or Python environment:
 
-```bash
-   python priority_queue_implementation.py
+      ```bash
+         python priority_queue_implementation.py
 ## Expected Output
-```bash
-Extracted task: Task(id=2, priority=20, arrival=09:30, deadline=13:00)
-Is the queue empty? False
-Heap: [Task(id=3, priority=25, arrival=10:00, deadline=11:30), Task(id=1, priority=10, arrival=09:00, deadline=12:00)]
+      ```bash
+      Extracted task: Task(id=2, priority=20, arrival=09:30, deadline=13:00)
+      Is the queue empty? False
+      Heap: [Task(id=3, priority=25, arrival=10:00, deadline=11:30), Task(id=1, priority=10, arrival=09:00, deadline=12:00)]
 
